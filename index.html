@@ -1,98 +1,98 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact Us</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me</title>
 
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
 
-<link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
-<script src="https://use.fontawesome.com/20ab91acc4.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<section id="contact">
-  
-  <h1 class="section-header">Contact</h1>
-  
-  <div class="contact-wrapper">
-  
-  <!-- Left contact page --> 
-    
-    <form id="contact-form" class="form-horizontal" role="form">
-       
-      <div class="form-group">
-        <div class="col-sm-12">
-          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
-        </div>
-      </div>
 
-      <div class="form-group">
-        <div class="col-sm-12">
-          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
-        </div>
-      </div>
+  <!-- Background Glow -->
+  <div class="bg-glow glow1"></div>
+  <div class="bg-glow glow2"></div>
 
-      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-      
-      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-        <div class="alt-send-button">
-          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-        </div>
-      
-      </button>
-      
-    </form>
-    
-  <!-- Left contact page --> 
-    
-      <div class="direct-contact-container">
+  <!-- Theme Toggle -->
+  <div class="theme-switch">
+    <i class="fa-solid fa-sun"></i>
 
-        <ul class="contact-list">
-          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Colombo, Sri Lanka</span></i></li>
-          
-          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="https://wa.me/94704176571" title="Message">What's App</a></span></i></li>
+    <label class="switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider"></span>
+    </label>
 
-          <li class="list-item"><i class="fa fa-paper-plane fa-2x"><span class="contact-text phone"><a href="https://t.me/mihirunshan" title="Message">Telegram</a></span></i></li>
-          
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:mihirunshan@gmail.com" title="Send me an email">E-mail</a></span></i></li>
-          
-        </ul>
-
-        <hr>
-        <ul class="social-media-list">
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-github" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-facebook" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://twitter.com/MihirunS" target="_blank" class="contact-icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://www.instagram.com/mihirunshan" target="_blank" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </li>       
-        </ul>
-        <hr>
-
-        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
-
-      </div>
-    
+    <i class="fa-solid fa-moon"></i>
   </div>
-  
-</section>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script><script  src="./script.js"></script>
 
+  <!-- Main Container -->
+  <div class="container">
+
+    <div class="card">
+      <h1>Contact Me</h1>
+      <p class="subtitle">
+        Let's build something futuristic together.
+      </p>
+
+      <!-- Contact Links -->
+      <div class="contact-links">
+
+        <a href="mailto:yourmail@example.com" class="contact-btn">
+          <i class="fa-solid fa-envelope"></i>
+          Email
+        </a>
+
+        <a href="https://t.me/yourusername" target="_blank" class="contact-btn">
+          <i class="fa-brands fa-telegram"></i>
+          Telegram
+        </a>
+
+        <a href="https://wa.me/94770000000" target="_blank" class="contact-btn">
+          <i class="fa-brands fa-whatsapp"></i>
+          WhatsApp
+        </a>
+
+      </div>
+
+      <!-- Social Media -->
+      <div class="social-section">
+        <h2>Social Media</h2>
+
+        <div class="social-icons">
+
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
